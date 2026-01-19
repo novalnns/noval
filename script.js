@@ -6,5 +6,5 @@ setInterval(() => {
   slides[index].classList.remove('active');
   index = (index + 1) % slides.length;
   slides[index].classList.add('active');
-}, 12000); // ganti slide tiap 12 detik
+}, 7000); // ganti slide tiap 7 detik
 </script>
